@@ -1,4 +1,4 @@
-# Sistema de casa de eventos turma 1025
+# Sistema de casa de eventos 
 
 ![Print da Homepage](https://i.ibb.co/0BLwdMW/Screenshot-2024-02-19-at-16-30-28.png)
 
@@ -10,6 +10,7 @@
 
 ## Dependências Utilizadas
 
+- Docker
 - React Router
 - Styled Components
 - Axios
@@ -18,21 +19,14 @@
 
 ## Participantes do projeto
 
-- Aluno 01
-- Aluno 02
-- Aluno 03
+- Julio Moura
 
-## Responsaveis pelo desenvolvimento:
+## Responsaveis pela conteinerização:
 
-### Aluno 01
+### Julio Moura
 
-- Criou o componente de rotas
-- Foi responsável pelo CSS
-
-### Aluno 02
-
-- Criou a página de login
-- Criou o Componente de cabeçalho
+- Criou o build da aplicação.
+- Subiu para o dockerhub.
 
 ## Instruções de Instalação
 
@@ -47,6 +41,23 @@ Entrar na pasta do projeto
 ```sh
 cd casa-de-eventos-react
 ```
+
+## Se você tiver o docker instalado, no seu terminal rode o comando:
+
+```sh
+docker build -t casa-de-eventos-react .
+```
+
+Esse comando vai buildar a aplicação.
+Agora para rodar aplicação, no seu terminal digite o comando:
+
+```sh
+docker run -d -p 5173:5173 casa-de-eventos-react
+```
+
+### _Pronto! Seu projeto já estará rodando no endereço http://localhost:5173_
+
+Com isso ele vai pular todos os comandos, não precisa dos comandos abaixo.
 
 Instalar as dependencias
 
@@ -75,3 +86,7 @@ json-server --watch eventos.json
 ```
 
 ### _Pronto! Seu projeto já estará rodando no endereço http://localhost:5173_
+
+### Agradecimentos
+
+Ao Roosevelt Franklin pelo código: https://github.com/roofranklin
