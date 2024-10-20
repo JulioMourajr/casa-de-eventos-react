@@ -57,6 +57,10 @@ docker run -d -p 5173:5173 casa-de-eventos-react
 
 ### _Pronto! Seu projeto já estará rodando no endereço http://localhost:5173_
 
+## Link para a imagem no docker hub
+
+https://hub.docker.com/repository/docker/juliomourajr92/casa-de-eventos/general
+
 Com isso ele vai pular todos os comandos, não precisa dos comandos abaixo.
 
 Instalar as dependencias
