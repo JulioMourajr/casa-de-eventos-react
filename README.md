@@ -44,6 +44,16 @@ cd casa-de-eventos-react
 
 ## Se você tiver o docker instalado, no seu terminal rode o comando:
 
+Pensando em facilitar ainda mais para rodar a aplicação.
+
+```sh
+docker-compose up -d
+```
+Seu projeto já estará rodando no endereço http://localhost:5173_
+
+Os comandos abaixo não será mais nescessário. 
+Mas, deixei no README pela curiosidade e ter um passo a passo para facilitar. 
+
 ```sh
 docker build -t casa-de-eventos-react .
 ```
